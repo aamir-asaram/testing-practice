@@ -10,3 +10,7 @@ module.exports.stringLength = (string) => {
 module.exports.reverseString = (string) => {
   return string.split('').reverse().join('');
 }
+
+module.exports.capitalizeString = (string) => {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
